@@ -1,0 +1,5 @@
+lirc-prepare
+lircd-daemon
+lircd-log
+lircmd-daemon
+lircmd-log
