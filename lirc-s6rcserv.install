@@ -1,9 +1,0 @@
-post_install() {
-	echo "	>> Create directory for log on /var/log/s6rc/lircd" 
-	mkdir -p -m 0755 /var/log/s6rc/lircd
-	chown -R s6log:log /var/log/s6rc/lircd 
-	
-	echo "	>> Create directory for log on /var/log/s6rc/lircmd" 
-	mkdir -p -m 0755 /var/log/s6rc/lircmd
-	chown -R s6log:log /var/log/s6rc/lircmd 
-}

@@ -1,5 +1,5 @@
 lirc-prepare
-lircd-daemon
+lircd-longrun
 lircd-log
-lircmd-daemon
+lircmd-longrun
 lircmd-log
